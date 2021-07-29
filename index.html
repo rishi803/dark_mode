@@ -20,13 +20,25 @@
 <body id="hi">
   <h1>hello bro</h1>
   <button onclick="myfun()" class="btn btn-outline-warning mr-1 float-left"> DARK</button>
-  <button onclick="myfun1()" class="btn btn-outline-warning float-right"> LIGHT</button>
+  <button onclick="myfun1()" class="btn btn-outline-warning float-right"> LIGHT</button><br><br><br><br><br><br><br><br>
+  <button onclick="myfun2()" class="btn btn-outline-warning float-left">PINK</button>
+  <button onclick="myfun3()" class="btn btn-outline-warning float-right">GREEN</button><br><br><br><br><br><br><br><br>
+  <button onclick="myfun4()" class="btn btn-outline-warning float-left">BLUE </button>
+  <button onclick="myfun5()" class="btn btn-outline-warning float-right">PURPLE</button>
   <script>
     function myfun(){
       document.getElementById('hi').setAttribute("style","background-color:black; text-align:center; color:white;")}
     function myfun1(){
       document.getElementById('hi').setAttribute("style","background-color:white; text-align:center; color:red;")
     }
+    function myfun2(){
+      document.getElementById('hi').setAttribute("style","background-color:#e52b50; text-align:center; color:white;")}
+      function myfun3(){
+      document.getElementById('hi').setAttribute("style","background-color:green; text-align:center; color:white;")}
+      function myfun4(){
+      document.getElementById('hi').setAttribute("style","background-color:blue; text-align:center; color:white;")}
+      function myfun5(){
+      document.getElementById('hi').setAttribute("style","background-color:purple; text-align:center; color:white;")}
   </script>
 </body>
 </html>
